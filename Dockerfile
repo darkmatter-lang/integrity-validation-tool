@@ -1,6 +1,6 @@
 FROM debian:bullseye-20231120-slim
-LABEL name="darkmatter-llvm-integrity"
-LABEL description="Darkmatter LLVM-IR assembly validator"
+LABEL name="darkmatter-ivt"
+LABEL description="Darkmatter LLVM-IR Integrity Validation Tool"
 LABEL maintainer="Anthony Waldsmith <awaldsmith@protonmail.com>"
 
 # Install dependencies

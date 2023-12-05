@@ -3,7 +3,7 @@
 # Change directory to the current script directory
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"; cd "${DIR}"
 
-IMAGE_NAME="darkmatter-llvm-integrity:latest"
+IMAGE_NAME="darkmatter-ivt:latest"
 
 if [[ "$(docker images -q ${IMAGE_NAME} 2> /dev/null)" == "" ]]; then
 	# Build the docker image
