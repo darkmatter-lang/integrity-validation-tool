@@ -1,0 +1,6 @@
+# GitHub Linguist Coloring
+*.dm linguist-language=Darkmatter
+*.asm linguist-language=Assembly
+*.ll linguist-language=LLVM
+*.lua linguist-language=Lua
+*.sh linguist-language=Shell

@@ -1,0 +1,12 @@
+# IDE rubbish
+.idea/
+.vscode/
+
+# OS rubbish
+*.DS_Store
+Thumbs.db
+
+# Ignore binaries
+bin/
+*.bin
+*.log
